@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "AI Chatbot",
+  "version": "1.0",
+  "description": "Ask questions to an AI chatbot using OpenAI.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "theblockchaincoders.png",
+      "48": "theblockchaincoders.png",
+      "128": "theblockchaincoders.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "/scripts/aiChat.js",
+        "/scripts/aiImage.js",
+        "/scripts/aiNote.js",
+        "/scripts/aiHomeNote.js",
+        "/scripts/aiAnalyze.js",
+        "/scripts/aiSummarie.js",
+        "/scripts/aiTranslate.js",
+        "/scripts/aiExplain.js",
+        "/scripts/aiRewrite.js",
+        "/scripts/aiSolidity.js",
+        "/scripts/aiRust.js",
+        "/scripts/aiFrontEnd.js",
+        "/scripts/aiCrypto.js",
+        "/scripts/modal.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["theblockchaincoders.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
