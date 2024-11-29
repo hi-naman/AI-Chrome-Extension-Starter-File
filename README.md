@@ -10,7 +10,7 @@ In this comprehensive tutorial, learn how to create and deploy a powerful AI-pow
 
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-your-own-ai-image-art-generator-app-or-next.js-node.js-express-and-mongodb)
+- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-an-ai-powered-chrome-extension-using-javascript)
 
 #### Setup Video
 
